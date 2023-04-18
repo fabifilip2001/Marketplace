@@ -1,0 +1,45 @@
+Nume: Filip Fabian-Clementin
+Grupa: 334CA
+
+TEMA 1
+
+Organizare:
+
+1. Explicatie pentru solutia aleasa:
+
+- pentru fisierul 'marketplace.py', care se afla in centrul implementarii, am ales diferite structuri de date
+pentru a retine datele necesare mai departe
+- am ales pentru marketplace-ul efectiv un dictionar, in care am stocat perechi de forma [key->value], unde
+key este un Int si reprezeinta id-ul unui producer, iar value este de tip list, si retine produsele postate
+de fiecare produse
+- pentru functionalitatea principala a unui consumer, am ales sa stochez toate cart-urile intr-o lista
+carts, de forma [[], [], ...]; in aceasta lista, la fiecare index gasim o lista noua, fiecare index
+reprezentand id-ul unui consumer, iar in lista produsele adaugate de consumer, pe care vrea sa le cumpere
+- pentru fisierele producer.py si consumer.py, am urmat atat restrictiile din enunt, cat si pseudocodul
+problemei simulate de noi Producers-Consumers; de asemenea, am prelucrat si fisierele de input, 
+cu ajutorul parcurgerii structurilor de date din constructorul fiecarei clase
+
+* in opinia mea, tema a fost foarte utila in contextul in care ne-a ajutat sa consolidam limbajul Python,
+dar si sa invatam cum sa lucram cu Unittesting, dar si cu logging files;  de asemnea, consider ca partea
+de paralelismul in Python este putin ineficient si inutil, avand in vedere GIL-ul din spatele Python
+* totodata, lasand deoparte implementarea problemei Producers-Consumers, consider ca functionalitatile
+din Marketplace au fost destul de naive, dar apropiate de unele din productie
+
+
+Implementare:
+
+- am implementat toate cerintele din enunt
+- singurele dificultati intalnite in implementare au fost legate de sincronizare, la apelarea functiilor
+in producer si consumer
+- cel mai interesant lucru mi s-a parut folosirea fisierului de logging si setup-ul acestuia
+
+Resurse utilizate:
+
+- https://docs.python.org/3/library/logging.html
+- https://docs.python.org/3/library/unittest.html
+- https://ocw.cs.pub.ro/courses/asc/laboratoare/01
+- https://ocw.cs.pub.ro/courses/apd/laboratoare/05
+
+Git:
+
+- 

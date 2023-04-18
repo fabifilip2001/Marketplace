@@ -1,0 +1,19 @@
+timeout: failed to run command ‘./run_tests.sh’: No such file or directory
+TIMEOUT. Tests exceeded maximum allowed time of 360
+
+Run pylint
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3/dist-packages/pylint/__main__.py", line 7, in <module>
+    pylint.run_pylint()
+  File "/usr/lib/python3/dist-packages/pylint/__init__.py", line 23, in run_pylint
+    PylintRun(sys.argv[1:])
+  File "/usr/lib/python3/dist-packages/pylint/lint.py", line 1676, in __init__
+    linter.read_config_file(verbose=self.verbose)
+  File "/usr/lib/python3/dist-packages/pylint/config.py", line 704, in read_config_file
+    raise IOError("The config file {:s} doesn't exist!".format(config_file))
+OSError: The config file ./pylintrc doesn't exist!

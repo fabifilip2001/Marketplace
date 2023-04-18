@@ -1,0 +1,45 @@
+Starting test 1
+Finished test 1
+Test 1:		PASSED
+Starting test 2
+Finished test 2
+Test 2:		PASSED
+Starting test 3
+Finished test 3
+Test 3:		PASSED
+Starting test 4
+Finished test 4
+Test 4:		PASSED
+Starting test 5
+Finished test 5
+Test 5:		PASSED
+Starting test 6
+Finished test 6
+Test 6:		PASSED
+Starting test 7
+Finished test 7
+Test 7:		PASSED
+Starting test 8
+Finished test 8
+Test 8:		PASSED
+Starting test 9
+Finished test 9
+Test 9:		PASSED
+Starting test 10
+Finished test 10
+Test 10:		PASSED
+
+Run pylint
+
+************* Module marketplace
+tema/marketplace.py:15:0: C0115: Missing class docstring (missing-class-docstring)
+tema/marketplace.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+tema/marketplace.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+tema/marketplace.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+tema/marketplace.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+tema/marketplace.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
+tema/marketplace.py:56:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.63/10 (previous run: 9.63/10, +0.00)
+
